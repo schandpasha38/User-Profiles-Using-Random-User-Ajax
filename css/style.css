@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    overflow-x: hidden;
+    background-color: #edf5e1
+}
+
+#counter {
+    padding: 50px;
+    text-align: center;
+    background-color: #8EE4AF;
+    box-shadow: 0 0 5px #888;
+    color: #05386B;
+}
+
+
+#counter h2 {
+    display: inline-block;
+    padding: 10px;
+    margin: 5px;
+    box-shadow: 0 0 5px #888;
+}
+
+#mainContainer {
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.card {
+    display: inline-block;
+    width: 250px;
+    border-radius: 0px;
+    overflow: hidden;
+    box-shadow: 0 0 5px #888;
+    margin: 10px;
+    color: #05386B;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.2s ease;
+}
+
+.card:hover {
+    transform: scale(1.03);
+    transition: 0.2s ease;
+}
+
+.usersnapbio {
+    height: 280px;
+    position: relative;
+    background-color: #5CDB95;
+    text-transform: capitalize;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.usersnapbiowrap {
+    display: inline-block;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.usersnapbiowrap h2 {
+    padding: 5px;
+    font-weight: 600;
+}
+
+.usersnapbiowrap img {
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+
+.userdetailsbtn {
+    background-color: #8EE4AF;
+    height: 60px;
+    position: relative;
+}
+
+.userdetailsbtn a {
+    font-weight: 900;
+    width: 40%;
+    padding: 10px;
+    color: #05386B;
+    background-color: #5CDB95;
+    text-decoration: none;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.2s ease;
+}
+
+.card:hover a {
+    transition: 0.2s ease;
+    color: #fff;
+    background-color: #379683;
+}

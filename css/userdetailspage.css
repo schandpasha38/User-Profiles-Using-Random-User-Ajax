@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    overflow-x: hidden;
+    background-color: #5CDB95;
+}
+
+#userDetailsContainer {
+    width: auto;
+    height: auto;
+}
+
+#goHome {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 20px;
+    color: #fff;    
+    text-decoration: none;
+}
+
+#goHome img {
+    padding: 10px;
+}
+
+.card {
+    display: inline-block;
+    width: 50%;
+    overflow: hidden;
+    box-shadow: 0 0 5px #888;
+    margin: 10px;
+    color: #000000;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.2s ease;
+    border-radius: 50px;
+    text-transform: capitalize;
+}
+
+#userDetailsContainer {
+    color: #fff;
+    width: 100%;
+}
+
+.usersnapbio {
+    margin: 0 auto;
+    width: 70%;
+}
+
+.card-img {
+    border-radius: 50%;
+    border: 5px solid #fff;
+}
+
+.userimage,#usersnapbio1,#contact,#address {
+    margin: 10px auto;
+    width: 70%;
+}
+
+.card-title {
+    margin: 10px;
+    font-size: 50px;
+}
